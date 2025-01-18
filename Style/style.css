@@ -101,16 +101,20 @@ body {
 /* important websites */
 
 .websites{
-    margin-top: 69px;
+    height: 110px;
+    width: 1110px;
+    margin: 69px auto;
     border: 1px solid rgba(192, 204, 218, 0.6);
     border-left: none;
     border-right: none;
-    padding: 36px 62px;
 }
 
 .website-div{
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    display: flex;
+    gap: 61px;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 62px;
 }
 
 /* main style */
@@ -118,7 +122,9 @@ body {
 /* shopping card style */
 
 .shopping{
-    margin-top: 100px;
+    height: 1662px;
+    width: 1047px;
+    margin: 100px auto;
 }
 
 .shopping-heading{
@@ -189,6 +195,8 @@ body {
 .featured{
     display: flex;
     gap: 96px;
+    justify-content: center;
+    align-items: center;
 }
 
 .featured-des-heading{
