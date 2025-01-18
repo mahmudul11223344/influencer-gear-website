@@ -184,6 +184,53 @@ body {
 
 /* main card style end */
 
+/* main featured style */
+
+.featured{
+    display: flex;
+    gap: 96px;
+}
+
+.featured-des-heading{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: rgb(10, 8, 38);
+}
+
+.featured-des-des{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(108, 108, 108);
+}
+
+/* end the style of main */
+
+/* footer style */
+
+footer {
+    background-color: rgba(10, 8, 38, 1);
+    margin-top: 120px;
+}
+
+.footer-heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255);
+    margin-bottom: 3px;
+}
+
+.footer-section{
+    padding: 50px 589px;
+    text-align: center;
+}
+
+.description{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: rgb(217, 219, 225);
+    margin-top: 3px;
+}
+
 @media screen and (max-width:576px) {
     .navbar, .banner, .navbar-list {
         flex-direction: column;
