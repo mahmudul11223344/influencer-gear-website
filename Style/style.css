@@ -243,20 +243,28 @@ footer {
         width: 360px;
     }
 
+    .banner-img{
+        /* width: 257px;
+        height: auto; */
+    }
+
     .navbar, .navbar-list, .banner, .featured{
         flex-direction: column;
     }
 
     .websites{
+        width: 100%;
         border: none;
     }
 
     .website-div{
         grid-template-columns:repeat(3, 110px);
         gap: 15px;
+        padding: 0px;
     }
 
     .shopping{
+        width: auto;
         margin-bottom: -60px;
     }
 
@@ -278,5 +286,9 @@ footer {
 
     .featured-pic{
         order: 2;
+    }
+
+    .footer-section{
+        padding: 20px 20px;
     }
 }
