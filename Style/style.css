@@ -51,7 +51,7 @@ body {
 .banner {
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .banner-btn {
@@ -286,6 +286,14 @@ footer {
 
     .featured-pic{
         order: 2;
+    }
+
+    .media-pic{
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 30px;
     }
 
     .footer-section{
