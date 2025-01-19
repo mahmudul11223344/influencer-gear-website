@@ -52,7 +52,6 @@ body {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
-    height: 475px;
 }
 
 .banner-btn {
@@ -110,9 +109,9 @@ body {
 }
 
 .website-div{
-    display: flex;
-    gap: 61px;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
     align-items: center;
     padding: 36px 62px;
 }
@@ -122,7 +121,6 @@ body {
 /* shopping card style */
 
 .shopping{
-    height: 1662px;
     width: 1047px;
     margin: 100px auto;
 }
@@ -240,7 +238,45 @@ footer {
 }
 
 @media screen and (max-width:576px) {
-    .navbar, .banner, .navbar-list {
+
+    body {
+        width: 360px;
+    }
+
+    .navbar, .navbar-list, .banner, .featured{
         flex-direction: column;
+    }
+
+    .websites{
+        border: none;
+    }
+
+    .website-div{
+        grid-template-columns:repeat(3, 110px);
+        gap: 15px;
+    }
+
+    .shopping{
+        margin-bottom: -60px;
+    }
+
+    .shopping-card{
+        grid-template-columns: repeat(1, 330px);
+    }
+
+    .banner-things{
+        order: 2;
+    }
+
+    .media{
+        grid-column: -3;
+    }
+
+    .featured{
+        gap: 40px;
+    }
+
+    .featured-pic{
+        order: 2;
     }
 }
